@@ -1,63 +1,65 @@
 .profile {
-    width: 320px;
-    margin: 40px auto;
-    text-align: center;
-    color: #293748;
-    box-shadow: 0 0 2px 2px #e1e7ef;
-    border-radius: 5px;
+  width: 320px;
+  margin: 40px auto;
+  text-align: center;
+  color: #293748;
+  box-shadow: 0 0 2px 2px #e1e7ef;
+  border-radius: 5px;
 }
 
 .description {
-    background-color: #FFFFFF;
-    padding: 30px;
-    border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px 5px 0 0;
 }
 
 .avatar {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-bottom: 30px;
+  max-width: 130px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .name {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.name, .tag {
-    margin-bottom: 10px;
+.name,
+.tag {
+  margin-bottom: 10px;
 }
 
-.tag, .location {
-    color: #98a4b0;
-    font-size: 16px;
+.tag,
+.location {
+  color: #98a4b0;
+  font-size: 16px;
 }
 
 .stats {
-    padding-left: 0;
-    background-color: #f3f6f9;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    border-radius: 0 0 5px 5px;
+  padding-left: 0;
+  background-color: #f3f6f9;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  border-radius: 0 0 5px 5px;
 }
 
 .stats li {
-    display: flex;
-    flex-basis: calc(100%/3);
-    flex-direction: column;
-    border: 1px solid #e7ecf2;
-    padding: 30px 10px;
+  display: flex;
+  flex-basis: calc(100% / 3);
+  flex-direction: column;
+  border: 1px solid #e7ecf2;
+  padding: 30px 10px;
 }
 
 .label {
-    color: #98a4b0;
-    font-size: 14px;
-    margin-bottom: 5px;
+  color: #98a4b0;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .quantity {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
